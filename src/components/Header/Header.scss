@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: max-content;
+  border-radius: 40px;
+  background-color: rgb(135, 149, 217);
+  margin: 20px auto;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 40px;
+
+    transition: 0.3s;
+    &:hover{
+        
+          background-color: rgb(92, 81, 158);
+    }
+  }
+}
+.header{
+  position: fixed;
+  top: 0;
+left: 50%;
+transform: translateX(-50%);
+}
